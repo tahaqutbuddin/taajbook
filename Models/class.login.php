@@ -150,9 +150,9 @@ class Login
         $mail->SMTPAuth   = TRUE;
         $mail->SMTPSecure = "tls";
         $mail->Port       = 587;
-        $mail->Host       = "smtp.titan.email";
-        $mail->Username   = "support@taajbook.com";
-        $mail->Password   = "IweiSAdmBS";
+        $mail->Host       = "";
+        $mail->Username   = "";
+        $mail->Password   = "";
         
         $mail->IsHTML(true);
         $mail->AddAddress($to, $fullname);
